@@ -1,0 +1,64 @@
+/* Add CSS rules to style your audio player */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#audio-player {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#current-song {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold; /* Make the font bold */
+    background-color: #FFD700; /* Add a background color for eye-catching effect (e.g., gold) */
+    padding: 5px; /* Add some padding for emphasis */
+    border-radius: 5px;
+}
+
+#song-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#song-list li {
+    flex: 0 0 calc(16.6667% - 10px);
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #87CEEB;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#song-list li:hover {
+    background-color: #e0e0e0;
+}
+
